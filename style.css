@@ -1,0 +1,37 @@
+
+body {
+  background: rgb(211,255,250);
+  background: linear-gradient(160deg, rgba(211,255,250,1) 0%, rgba(255,227,250,1) 100%); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#clockContainer {
+  width: 1232px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  margin-left: -616px;
+  margin-top: -100px;
+}
+
+#clock {
+  font-size: 200px;
+  font-family: "Advent Pro";
+/*   margin-top: -20px;
+  margin-left: 280px; */
+  display: inline;
+}
+
+#ms {
+  display: inline;
+}
+
+#title {
+  font-size: 100px;
+  font-family: "Advent Pro";
+/*   margin-left: 30%;
+  margin-top: -20%; */
+}
